@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Engineer" representedClassName="Engineer" syncable="YES" codeGenerationType="class">
+        <attribute name="busName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FrontGate" representedClassName="FrontGate" syncable="YES" codeGenerationType="class">
+        <attribute name="busName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Science" representedClassName="Science" syncable="YES" codeGenerationType="class">
+        <attribute name="busName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SearchHistory" representedClassName="SearchHistory" syncable="YES" codeGenerationType="class">
+        <attribute name="busStopName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateForSort" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Engineer" positionX="-18" positionY="36" width="128" height="60"/>
+        <element name="FrontGate" positionX="-45" positionY="0" width="128" height="60"/>
+        <element name="Science" positionX="9" positionY="54" width="128" height="60"/>
+        <element name="SearchHistory" positionX="-18" positionY="36" width="128" height="90"/>
+    </elements>
+</model>

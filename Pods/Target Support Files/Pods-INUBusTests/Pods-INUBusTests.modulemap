@@ -1,0 +1,6 @@
+framework module Pods_INUBusTests {
+  umbrella header "Pods-INUBusTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

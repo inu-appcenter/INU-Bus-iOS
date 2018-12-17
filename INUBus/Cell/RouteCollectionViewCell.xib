@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFRegular.otf">
+            <string>NanumSquareOTFR</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RouteCollectionViewCell" id="gTV-IL-0wX" customClass="RouteCollectionViewCell" customModule="INUBus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="57"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6hD-Se-nTW">
+                        <rect key="frame" x="179" y="40" width="17" height="17"/>
+                        <color key="backgroundColor" red="0.19215686269999999" green="0.47450980390000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="Kgh-Bw-Dhp"/>
+                            <constraint firstAttribute="height" constant="17" id="kUU-ie-V9c"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TJT-ky-2XK">
+                        <rect key="frame" x="186" y="0.0" width="2" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.19215686269999999" green="0.47450980390000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8g3-gv-oW7">
+                        <rect key="frame" x="206" y="41.5" width="29" height="14"/>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVS-Ea-Xip">
+                        <rect key="frame" x="142" y="41.5" width="29" height="14"/>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="회차지" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUj-RQ-enH">
+                        <rect key="frame" x="205" y="12" width="33" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="12"/>
+                        <color key="textColor" red="0.51372549019607838" green="0.51372549019607838" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="gVS-Ea-Xip" firstAttribute="centerY" secondItem="6hD-Se-nTW" secondAttribute="centerY" id="9uv-OV-NgF"/>
+                <constraint firstItem="8g3-gv-oW7" firstAttribute="leading" secondItem="6hD-Se-nTW" secondAttribute="trailing" constant="10" id="Qfu-kB-FTo"/>
+                <constraint firstAttribute="bottom" secondItem="6hD-Se-nTW" secondAttribute="bottom" id="TPv-bx-bnv"/>
+                <constraint firstItem="6hD-Se-nTW" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Ylu-Wr-SgW"/>
+                <constraint firstItem="6hD-Se-nTW" firstAttribute="leading" secondItem="gVS-Ea-Xip" secondAttribute="trailing" constant="8" id="dSl-DB-VIT"/>
+                <constraint firstItem="8g3-gv-oW7" firstAttribute="centerY" secondItem="6hD-Se-nTW" secondAttribute="centerY" id="kGA-eE-Jd4"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="375" height="57"/>
+            <connections>
+                <outlet property="downImageView" destination="6hD-Se-nTW" id="TU4-eS-bsv"/>
+                <outlet property="leftBusStopLabel" destination="gVS-Ea-Xip" id="OoF-c9-1I1"/>
+                <outlet property="middleView" destination="TJT-ky-2XK" id="Ih4-6B-EL1"/>
+                <outlet property="rightBusStopLabel" destination="8g3-gv-oW7" id="z2Z-B7-0BJ"/>
+                <outlet property="turnLabel" destination="uUj-RQ-enH" id="0kK-eG-2b2"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="90.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

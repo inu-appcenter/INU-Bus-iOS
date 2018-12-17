@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,9 +14,31 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icLogo" translatesAutoresizingMaskIntoConstraints="NO" id="YiB-j6-EYw">
+                                <rect key="frame" x="132.66666666666666" y="336.66666666666669" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="f8O-Tt-gMX"/>
+                                    <constraint firstAttribute="height" constant="110" id="pUT-tm-5CG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="inuBus" translatesAutoresizingMaskIntoConstraints="NO" id="heb-0O-4Z2">
+                                <rect key="frame" x="146.66666666666666" y="486.66666666666669" width="81.666666666666657" height="16.333333333333314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81.5" id="B2M-UG-2qJ"/>
+                                    <constraint firstAttribute="height" constant="16.5" id="OoE-eG-5jG"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="heb-0O-4Z2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2hE-6p-jrk"/>
+                            <constraint firstItem="YiB-j6-EYw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="325:337" id="DdL-Wn-H8j"/>
+                            <constraint firstItem="YiB-j6-EYw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RXh-0T-XZd"/>
+                            <constraint firstItem="heb-0O-4Z2" firstAttribute="top" secondItem="YiB-j6-EYw" secondAttribute="bottom" constant="40" id="nAB-nA-2Ie"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -22,4 +47,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icLogo" width="110" height="109"/>
+        <image name="inuBus" width="81" height="16"/>
+    </resources>
 </document>

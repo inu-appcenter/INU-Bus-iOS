@@ -1,0 +1,1344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014DC8742AAD5B70CE362B4094616382 /* LabelSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E0DCD44AFEA25A84305CCB1480E7D5 /* LabelSegment.swift */; };
+		05ED5B55D8AAD30623AEB9B36430D576 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5827AD4BDBD4971F41C66F3F5BD1EA18 /* KYEmbedMainControllerSegue.swift */; };
+		0A113A2FC5F91269AB55DF9FA683015F /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50567538026E221286F90CE3947B7AD /* Floaty.swift */; };
+		1982E7ED9231E948A558799362FEA8B3 /* Floaty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAEEE90CDBEFDA09C74D8294C37122 /* Floaty-dummy.m */; };
+		271BFEF92C3E4F5D40575D6CB5B3EC6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		2FACA812AEC913A8CC55FB5A15BA3CE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		31DEB9C293D974C0014F52E7853C3E0B /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC6B3ADD4F01BB35BAB88B5AFCD71A /* FloatyItem.swift */; };
+		530356FC11C4F4A1F641A30F65C5684F /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37D26A1501CCE1997EB820F3CF8C3F /* FloatyWindow.swift */; };
+		548CDADAD27ACB9F864A0CD288E31AFA /* Pods-INUBus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC9FFE532BC851CC8963F62388A6298 /* Pods-INUBus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC40F18DBFFCACF3FA032B58571B781 /* KYDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F418D49CFF453A7CA2268DDD4B146F9 /* KYDrawerController-dummy.m */; };
+		62B449845871F8DA880D40BE4935EC56 /* KYDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEB89AEBE13C3B0CED01E641E7C2EBB /* KYDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A072D97462646F220EFBE9DCAE8F5C1 /* BetterSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C84EF36352C92B8470A5F53FEAC386 /* BetterSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7067387FF3974A5BA87F204F718C33F5 /* Floaty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5555CC3F791088C36EFC7ECC018828F /* Floaty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7085F8552F1E9EF57FE10C6F7D07EB08 /* IconSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B323F535AA8245A504F95915D339E80 /* IconSegment.swift */; };
+		710B750541A05ADFA643EF5B105EDBB2 /* BetterSegmentedControlSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F3D58FD0BBA905F2CF4A158B156486 /* BetterSegmentedControlSegment.swift */; };
+		74EBEC8F9277C0056FF08F806E75EB4F /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA737FC2C240FAA5177FC5B77C0EE55 /* KYDrawerController.swift */; };
+		7BECD25493D599129A49F35326DDA5B5 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071881096491539D0B80E61450B3610A /* Options.swift */; };
+		87105D8CB62EAD195E49A6755BD0F377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		8E96697B51D3FD3DB5EB1BE3EF02B411 /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2BFEBCC53AC75AE5275FF104A73637 /* FloatyManager.swift */; };
+		9054A1CA64F47D0BEE3744D146CD26A2 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169D0338D62F7CE5B5E051F3D85F36A /* FloatyDelegate.swift */; };
+		9F1B7FC4FB48702AF5C26EAB6D5EF0B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		A3AE5A4C09DF5156CB81F2B92B03CF2D /* Pods-INUBusTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC5FECAFAD70F06A3D1085D05D16C12 /* Pods-INUBusTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3E215309BC3AAFE8C2DA802B2283BFD /* BetterSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2379BC2EC1BAD17AB7E948DF049C4769 /* BetterSegmentedControl-dummy.m */; };
+		A959B3E45D7994C5CED87AE561478A5F /* Pods-INUBusUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F68CE8CA1D38288FCC19E7AECB70B3B1 /* Pods-INUBusUITests-dummy.m */; };
+		AAC88CDADEDBFD84164D1AC462230464 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		AB59858361FA21D4F734EC82CB9E9C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		B23D99191BE18C21D705F9A90179312A /* Pods-INUBusTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FCE30A9AAFE82B02E5785B2077A6B3 /* Pods-INUBusTests-dummy.m */; };
+		B2A869B7FFF6C6C4203E1572AD48DAE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		E565DB0429223FDC270D69F361FD19D2 /* Pods-INUBusUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 008506C057FDF3E62CA4F4AED22491C3 /* Pods-INUBusUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F12827DFC1447D097D45C3687AF189DC /* BetterSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEE7F225E53F2820C8067139C50A3E9 /* BetterSegmentedControl.swift */; };
+		F5B4C3EE44C285ACF24E077895435175 /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D5E5EB906FD2BCE3F04A70354F8988 /* FloatyViewController.swift */; };
+		FBF233B7C652D1A9DD005E01A683A236 /* Pods-INUBus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C9B8464D9788A90D769D07AC703DD /* Pods-INUBus-dummy.m */; };
+		FC0DB53CE384F2F8C3AF7116202AE985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		FE020C0F86B9EBDE87399EC0136682FE /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350ABB44B3E874570B461131288CB1E0 /* KYEmbedDrawerControllerSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C706A9B5F88A283B626A2D04A645927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF8670FDECF80EFCAA3D04318C4B4D1;
+			remoteInfo = KYDrawerController;
+		};
+		25068E66AB4241A68EC6E7DCFD49AF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E758BEB0A7F8A4ADE817901C6DC877D;
+			remoteInfo = "Pods-INUBus";
+		};
+		57F258BD859C5A9D6374BAD59F18DBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F9CB62B8DA981D2A5C07A7292CC4FA;
+			remoteInfo = BetterSegmentedControl;
+		};
+		B8B36410B8ADFC628DC399EA3BA68EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E758BEB0A7F8A4ADE817901C6DC877D;
+			remoteInfo = "Pods-INUBus";
+		};
+		C8BB793659C284B044E614A4E3771238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C123A74CD9D6CDA27160800BA68B01A;
+			remoteInfo = Floaty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008506C057FDF3E62CA4F4AED22491C3 /* Pods-INUBusUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-INUBusUITests-umbrella.h"; sourceTree = "<group>"; };
+		06D12E0DECEC8564A6AE9A0536A47269 /* KYDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KYDrawerController.modulemap; sourceTree = "<group>"; };
+		06E0DCD44AFEA25A84305CCB1480E7D5 /* LabelSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelSegment.swift; path = Pod/Classes/Segments/LabelSegment.swift; sourceTree = "<group>"; };
+		071881096491539D0B80E61450B3610A /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Pod/Classes/Options.swift; sourceTree = "<group>"; };
+		077D98EE5638E60DB9FA322C277923B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C49213AFF6AB0A7FB296D3365242EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0944185BA597221C2C5D08C10DF91D79 /* Pods-INUBusUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-INUBusUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B2BFEBCC53AC75AE5275FF104A73637 /* FloatyManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyManager.swift; path = Sources/FloatyManager.swift; sourceTree = "<group>"; };
+		10EDCDE2404CCFF657EBEAB5F270B28D /* Pods-INUBusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INUBusTests.release.xcconfig"; sourceTree = "<group>"; };
+		1169D0338D62F7CE5B5E051F3D85F36A /* FloatyDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyDelegate.swift; path = Sources/FloatyDelegate.swift; sourceTree = "<group>"; };
+		11F3D58FD0BBA905F2CF4A158B156486 /* BetterSegmentedControlSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BetterSegmentedControlSegment.swift; path = Pod/Classes/BetterSegmentedControlSegment.swift; sourceTree = "<group>"; };
+		131D45FA887043F688FB23D4211BEE81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C84EF36352C92B8470A5F53FEAC386 /* BetterSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		2379BC2EC1BAD17AB7E948DF049C4769 /* BetterSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BetterSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		2623A7000F5E4472B7E41AED90FADD8B /* Pods-INUBusTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INUBusTests-frameworks.sh"; sourceTree = "<group>"; };
+		2938DD4400FB959CB4B7B1B8A91051F0 /* Pods-INUBusTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-INUBusTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DC5FECAFAD70F06A3D1085D05D16C12 /* Pods-INUBusTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-INUBusTests-umbrella.h"; sourceTree = "<group>"; };
+		2E1F765ACB517372059549191D29651E /* Pods_INUBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_INUBus.framework; path = "Pods-INUBus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9C9B8464D9788A90D769D07AC703DD /* Pods-INUBus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-INUBus-dummy.m"; sourceTree = "<group>"; };
+		2EEE7F225E53F2820C8067139C50A3E9 /* BetterSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BetterSegmentedControl.swift; path = Pod/Classes/BetterSegmentedControl.swift; sourceTree = "<group>"; };
+		350ABB44B3E874570B461131288CB1E0 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		3B323F535AA8245A504F95915D339E80 /* IconSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IconSegment.swift; path = Pod/Classes/Segments/IconSegment.swift; sourceTree = "<group>"; };
+		463C26A14BC4602CE48E95A5D64824CC /* Floaty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Floaty.modulemap; sourceTree = "<group>"; };
+		4F418D49CFF453A7CA2268DDD4B146F9 /* KYDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYDrawerController-dummy.m"; sourceTree = "<group>"; };
+		5827AD4BDBD4971F41C66F3F5BD1EA18 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		5D304904C42FF773628DD5AEC6615EA7 /* Pods-INUBusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INUBusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EA577F22D5DDA961757A5199FE8D927 /* BetterSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BetterSegmentedControl.framework; path = BetterSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9F9E4FAFC0FF5CE0CDF8BB074D00A3 /* Pods_INUBusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_INUBusUITests.framework; path = "Pods-INUBusUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ACAF5A783A06C512D1D212D04E4DD3 /* Pods-INUBus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INUBus-frameworks.sh"; sourceTree = "<group>"; };
+		620BC458DB04BAF91C7E18479DB76129 /* Pods-INUBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INUBus.debug.xcconfig"; sourceTree = "<group>"; };
+		63FD2FCE1BFA09838DD5670B9EDB6624 /* Pods-INUBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INUBus.release.xcconfig"; sourceTree = "<group>"; };
+		67589886E74B20FCB95FE54E1B9D5B8A /* KYDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYDrawerController.framework; path = KYDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8C13503DEBFC598997A83539EB5CE2 /* Pods-INUBusUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-INUBusUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		74D5C95746A6F48CC851F71105B5C9A8 /* Pods-INUBus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-INUBus-acknowledgements.plist"; sourceTree = "<group>"; };
+		75631C8D8579508975F0F268030BE5A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772E3A1356886C21931F72A2E5A3EB69 /* BetterSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BetterSegmentedControl.modulemap; sourceTree = "<group>"; };
+		7CDAEEE90CDBEFDA09C74D8294C37122 /* Floaty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Floaty-dummy.m"; sourceTree = "<group>"; };
+		7F44B2805231F39979A46C2D4C983DB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EC6B3ADD4F01BB35BAB88B5AFCD71A /* FloatyItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyItem.swift; path = Sources/FloatyItem.swift; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		91EE518786925296F209E1514B0FD2D6 /* Pods-INUBus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-INUBus-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AEB89AEBE13C3B0CED01E641E7C2EBB /* KYDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		A0CB45E4E772556D41562375A37465F5 /* Pods-INUBusTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-INUBusTests.modulemap"; sourceTree = "<group>"; };
+		A317B82BC1722DAB65C591F68049421F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD28B9151F96A3407B5A74CF514337D /* Floaty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-prefix.pch"; sourceTree = "<group>"; };
+		B012CAA6B455348E3316A709FAFB1ACA /* BetterSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BetterSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		B18C5B8219CED25BBF4C8C6C43822259 /* Pods_INUBusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_INUBusTests.framework; path = "Pods-INUBusTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C4B07BB5D1A7D87B942F84450420EE /* BetterSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		B5555CC3F791088C36EFC7ECC018828F /* Floaty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Floaty-umbrella.h"; sourceTree = "<group>"; };
+		B67D9E48A50DCE45BF7615CF48B749C9 /* Pods-INUBusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INUBusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B69DA3FA7ADCB5736CA68DADBC0BEB59 /* Pods-INUBus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-INUBus.modulemap"; sourceTree = "<group>"; };
+		B6E68B87B9FAB36D5813CF05D1A9A6E9 /* Pods-INUBusTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INUBusTests-resources.sh"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C8D5E5EB906FD2BCE3F04A70354F8988 /* FloatyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyViewController.swift; path = Sources/FloatyViewController.swift; sourceTree = "<group>"; };
+		C8FCE30A9AAFE82B02E5785B2077A6B3 /* Pods-INUBusTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-INUBusTests-dummy.m"; sourceTree = "<group>"; };
+		C9197968FFD1F4475006C0DF123E8151 /* KYDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		CF05E73E96DD5FE7C2A6307B011149D4 /* Pods-INUBusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INUBusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D397E54765DD1AFDF6F6A326AE575900 /* Floaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Floaty.framework; path = Floaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D4D7CC0E250BBF21EB5A6DE0EF574B /* Floaty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Floaty.xcconfig; sourceTree = "<group>"; };
+		D4BB02E9C9FAE965AFB4985F31251660 /* Pods-INUBus-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INUBus-resources.sh"; sourceTree = "<group>"; };
+		DAA737FC2C240FAA5177FC5B77C0EE55 /* KYDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
+		DD249B27F4F6D4228EB51FCD30C90AE3 /* Pods-INUBusUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-INUBusUITests.modulemap"; sourceTree = "<group>"; };
+		E5BA9D91E8E0755C2C35308E9962078E /* KYDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYDrawerController.xcconfig; sourceTree = "<group>"; };
+		E72F72537305531DB9A65DF7E039D12C /* Pods-INUBusUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INUBusUITests-resources.sh"; sourceTree = "<group>"; };
+		EB4AF5827546CA4E541273FAC3326B9A /* Pods-INUBusTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-INUBusTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB79D7C13C2E34798EED87F8E536572E /* Pods-INUBusUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INUBusUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EC37D26A1501CCE1997EB820F3CF8C3F /* FloatyWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatyWindow.swift; path = Sources/FloatyWindow.swift; sourceTree = "<group>"; };
+		F50567538026E221286F90CE3947B7AD /* Floaty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Floaty.swift; path = Sources/Floaty.swift; sourceTree = "<group>"; };
+		F68CE8CA1D38288FCC19E7AECB70B3B1 /* Pods-INUBusUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-INUBusUITests-dummy.m"; sourceTree = "<group>"; };
+		FFC9FFE532BC851CC8963F62388A6298 /* Pods-INUBus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-INUBus-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269B4345930085411C7C9E1D5BCFF78F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FACA812AEC913A8CC55FB5A15BA3CE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FBBAD3B1BD1447D75BE37CA213DC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87105D8CB62EAD195E49A6755BD0F377 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6687F92611B2878959D0A11CDD1B42C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271BFEF92C3E4F5D40575D6CB5B3EC6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB1EF2F8A9886B7F0713F557C0356DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0DB53CE384F2F8C3AF7116202AE985 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67466437CDA5F51197EB06015D97D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1B7FC4FB48702AF5C26EAB6D5EF0B6 /* Foundation.framework in Frameworks */,
+				B2A869B7FFF6C6C4203E1572AD48DAE2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91D449C74F3A7565170694D645F1052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB59858361FA21D4F734EC82CB9E9C0A /* Foundation.framework in Frameworks */,
+				AAC88CDADEDBFD84164D1AC462230464 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		24F6540D54652D71042DA6384C66230D /* Pods-INUBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				077D98EE5638E60DB9FA322C277923B6 /* Info.plist */,
+				A0CB45E4E772556D41562375A37465F5 /* Pods-INUBusTests.modulemap */,
+				2938DD4400FB959CB4B7B1B8A91051F0 /* Pods-INUBusTests-acknowledgements.markdown */,
+				EB4AF5827546CA4E541273FAC3326B9A /* Pods-INUBusTests-acknowledgements.plist */,
+				C8FCE30A9AAFE82B02E5785B2077A6B3 /* Pods-INUBusTests-dummy.m */,
+				2623A7000F5E4472B7E41AED90FADD8B /* Pods-INUBusTests-frameworks.sh */,
+				B6E68B87B9FAB36D5813CF05D1A9A6E9 /* Pods-INUBusTests-resources.sh */,
+				2DC5FECAFAD70F06A3D1085D05D16C12 /* Pods-INUBusTests-umbrella.h */,
+				B67D9E48A50DCE45BF7615CF48B749C9 /* Pods-INUBusTests.debug.xcconfig */,
+				10EDCDE2404CCFF657EBEAB5F270B28D /* Pods-INUBusTests.release.xcconfig */,
+			);
+			name = "Pods-INUBusTests";
+			path = "Target Support Files/Pods-INUBusTests";
+			sourceTree = "<group>";
+		};
+		25A7476A4B2C830167111CF2AECF5670 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				772E3A1356886C21931F72A2E5A3EB69 /* BetterSegmentedControl.modulemap */,
+				B012CAA6B455348E3316A709FAFB1ACA /* BetterSegmentedControl.xcconfig */,
+				2379BC2EC1BAD17AB7E948DF049C4769 /* BetterSegmentedControl-dummy.m */,
+				B3C4B07BB5D1A7D87B942F84450420EE /* BetterSegmentedControl-prefix.pch */,
+				18C84EF36352C92B8470A5F53FEAC386 /* BetterSegmentedControl-umbrella.h */,
+				75631C8D8579508975F0F268030BE5A4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BetterSegmentedControl";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AEA09273BC11728FBE2B9BD5A5795AC /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				DAA737FC2C240FAA5177FC5B77C0EE55 /* KYDrawerController.swift */,
+				350ABB44B3E874570B461131288CB1E0 /* KYEmbedDrawerControllerSegue.swift */,
+				5827AD4BDBD4971F41C66F3F5BD1EA18 /* KYEmbedMainControllerSegue.swift */,
+				C62279B4C119D3F3D327482B69743924 /* Support Files */,
+			);
+			name = KYDrawerController;
+			path = KYDrawerController;
+			sourceTree = "<group>";
+		};
+		5D9389AE4DC8BABF19800985D88DD4D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5360494B65A9B6CAABAC8C233E48E45 /* BetterSegmentedControl */,
+				E0ABD3E652E61CC468F4126392431DDF /* Floaty */,
+				4AEA09273BC11728FBE2B9BD5A5795AC /* KYDrawerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		747D277EAC7CBAB6A79BB15DF0E53A4E /* Pods-INUBus */ = {
+			isa = PBXGroup;
+			children = (
+				A317B82BC1722DAB65C591F68049421F /* Info.plist */,
+				B69DA3FA7ADCB5736CA68DADBC0BEB59 /* Pods-INUBus.modulemap */,
+				91EE518786925296F209E1514B0FD2D6 /* Pods-INUBus-acknowledgements.markdown */,
+				74D5C95746A6F48CC851F71105B5C9A8 /* Pods-INUBus-acknowledgements.plist */,
+				2E9C9B8464D9788A90D769D07AC703DD /* Pods-INUBus-dummy.m */,
+				61ACAF5A783A06C512D1D212D04E4DD3 /* Pods-INUBus-frameworks.sh */,
+				D4BB02E9C9FAE965AFB4985F31251660 /* Pods-INUBus-resources.sh */,
+				FFC9FFE532BC851CC8963F62388A6298 /* Pods-INUBus-umbrella.h */,
+				620BC458DB04BAF91C7E18479DB76129 /* Pods-INUBus.debug.xcconfig */,
+				63FD2FCE1BFA09838DD5670B9EDB6624 /* Pods-INUBus.release.xcconfig */,
+			);
+			name = "Pods-INUBus";
+			path = "Target Support Files/Pods-INUBus";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5D9389AE4DC8BABF19800985D88DD4D5 /* Pods */,
+				98B3A8E884E17BC8E63B7CC3DAC658E2 /* Products */,
+				8BFC31FAF4456BE986B3AF104681A6ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFC31FAF4456BE986B3AF104681A6ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				747D277EAC7CBAB6A79BB15DF0E53A4E /* Pods-INUBus */,
+				24F6540D54652D71042DA6384C66230D /* Pods-INUBusTests */,
+				B27F87CADDC5FC12FB8A8DAA6A463115 /* Pods-INUBusUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		92871E9436BDCCC75ADBFED7837BE368 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				463C26A14BC4602CE48E95A5D64824CC /* Floaty.modulemap */,
+				D3D4D7CC0E250BBF21EB5A6DE0EF574B /* Floaty.xcconfig */,
+				7CDAEEE90CDBEFDA09C74D8294C37122 /* Floaty-dummy.m */,
+				ADD28B9151F96A3407B5A74CF514337D /* Floaty-prefix.pch */,
+				B5555CC3F791088C36EFC7ECC018828F /* Floaty-umbrella.h */,
+				7F44B2805231F39979A46C2D4C983DB6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Floaty";
+			sourceTree = "<group>";
+		};
+		98B3A8E884E17BC8E63B7CC3DAC658E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA577F22D5DDA961757A5199FE8D927 /* BetterSegmentedControl.framework */,
+				D397E54765DD1AFDF6F6A326AE575900 /* Floaty.framework */,
+				67589886E74B20FCB95FE54E1B9D5B8A /* KYDrawerController.framework */,
+				2E1F765ACB517372059549191D29651E /* Pods_INUBus.framework */,
+				B18C5B8219CED25BBF4C8C6C43822259 /* Pods_INUBusTests.framework */,
+				5F9F9E4FAFC0FF5CE0CDF8BB074D00A3 /* Pods_INUBusUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27F87CADDC5FC12FB8A8DAA6A463115 /* Pods-INUBusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08C49213AFF6AB0A7FB296D3365242EE /* Info.plist */,
+				DD249B27F4F6D4228EB51FCD30C90AE3 /* Pods-INUBusUITests.modulemap */,
+				0944185BA597221C2C5D08C10DF91D79 /* Pods-INUBusUITests-acknowledgements.markdown */,
+				6E8C13503DEBFC598997A83539EB5CE2 /* Pods-INUBusUITests-acknowledgements.plist */,
+				F68CE8CA1D38288FCC19E7AECB70B3B1 /* Pods-INUBusUITests-dummy.m */,
+				EB79D7C13C2E34798EED87F8E536572E /* Pods-INUBusUITests-frameworks.sh */,
+				E72F72537305531DB9A65DF7E039D12C /* Pods-INUBusUITests-resources.sh */,
+				008506C057FDF3E62CA4F4AED22491C3 /* Pods-INUBusUITests-umbrella.h */,
+				5D304904C42FF773628DD5AEC6615EA7 /* Pods-INUBusUITests.debug.xcconfig */,
+				CF05E73E96DD5FE7C2A6307B011149D4 /* Pods-INUBusUITests.release.xcconfig */,
+			);
+			name = "Pods-INUBusUITests";
+			path = "Target Support Files/Pods-INUBusUITests";
+			sourceTree = "<group>";
+		};
+		C62279B4C119D3F3D327482B69743924 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				131D45FA887043F688FB23D4211BEE81 /* Info.plist */,
+				06D12E0DECEC8564A6AE9A0536A47269 /* KYDrawerController.modulemap */,
+				E5BA9D91E8E0755C2C35308E9962078E /* KYDrawerController.xcconfig */,
+				4F418D49CFF453A7CA2268DDD4B146F9 /* KYDrawerController-dummy.m */,
+				C9197968FFD1F4475006C0DF123E8151 /* KYDrawerController-prefix.pch */,
+				9AEB89AEBE13C3B0CED01E641E7C2EBB /* KYDrawerController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KYDrawerController";
+			sourceTree = "<group>";
+		};
+		D5360494B65A9B6CAABAC8C233E48E45 /* BetterSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				2EEE7F225E53F2820C8067139C50A3E9 /* BetterSegmentedControl.swift */,
+				11F3D58FD0BBA905F2CF4A158B156486 /* BetterSegmentedControlSegment.swift */,
+				3B323F535AA8245A504F95915D339E80 /* IconSegment.swift */,
+				06E0DCD44AFEA25A84305CCB1480E7D5 /* LabelSegment.swift */,
+				071881096491539D0B80E61450B3610A /* Options.swift */,
+				25A7476A4B2C830167111CF2AECF5670 /* Support Files */,
+			);
+			name = BetterSegmentedControl;
+			path = BetterSegmentedControl;
+			sourceTree = "<group>";
+		};
+		E0ABD3E652E61CC468F4126392431DDF /* Floaty */ = {
+			isa = PBXGroup;
+			children = (
+				F50567538026E221286F90CE3947B7AD /* Floaty.swift */,
+				1169D0338D62F7CE5B5E051F3D85F36A /* FloatyDelegate.swift */,
+				84EC6B3ADD4F01BB35BAB88B5AFCD71A /* FloatyItem.swift */,
+				0B2BFEBCC53AC75AE5275FF104A73637 /* FloatyManager.swift */,
+				C8D5E5EB906FD2BCE3F04A70354F8988 /* FloatyViewController.swift */,
+				EC37D26A1501CCE1997EB820F3CF8C3F /* FloatyWindow.swift */,
+				92871E9436BDCCC75ADBFED7837BE368 /* Support Files */,
+			);
+			name = Floaty;
+			path = Floaty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A4A25B402FA6A000CDA0143FC751686 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E565DB0429223FDC270D69F361FD19D2 /* Pods-INUBusUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7040078834AF686C100FFEC010D28436 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548CDADAD27ACB9F864A0CD288E31AFA /* Pods-INUBus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70697A946C8D6789AFF4B84E80B0DCF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE5A4C09DF5156CB81F2B92B03CF2D /* Pods-INUBusTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F522C0522F6102E735FC7B74623D435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B449845871F8DA880D40BE4935EC56 /* KYDrawerController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD400A760E4CB0AB151CA6EE94C583D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A072D97462646F220EFBE9DCAE8F5C1 /* BetterSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4B55F79F7EDF7665C0699A20731DE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7067387FF3974A5BA87F204F718C33F5 /* Floaty-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04F9CB62B8DA981D2A5C07A7292CC4FA /* BetterSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D302F4134BFB12987707E7B6C802BF /* Build configuration list for PBXNativeTarget "BetterSegmentedControl" */;
+			buildPhases = (
+				89E6E777F176773B53DA4FE63EF94397 /* Sources */,
+				E67466437CDA5F51197EB06015D97D69 /* Frameworks */,
+				9AD400A760E4CB0AB151CA6EE94C583D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterSegmentedControl;
+			productName = BetterSegmentedControl;
+			productReference = 5EA577F22D5DDA961757A5199FE8D927 /* BetterSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E758BEB0A7F8A4ADE817901C6DC877D /* Pods-INUBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8ED7DFDC42DEE101EB0521DA5E17BC /* Build configuration list for PBXNativeTarget "Pods-INUBus" */;
+			buildPhases = (
+				4628F53075CEB38B9DD8A408FFD82E3D /* Sources */,
+				58FBBAD3B1BD1447D75BE37CA213DC5F /* Frameworks */,
+				7040078834AF686C100FFEC010D28436 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73FF93ED8F4749842EEBF5613467EDCE /* PBXTargetDependency */,
+				FD2DF44FA2921B114E9C60192BF55EB8 /* PBXTargetDependency */,
+				EF1E20D6794A76470EC6425B5AEDFE6D /* PBXTargetDependency */,
+			);
+			name = "Pods-INUBus";
+			productName = "Pods-INUBus";
+			productReference = 2E1F765ACB517372059549191D29651E /* Pods_INUBus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C123A74CD9D6CDA27160800BA68B01A /* Floaty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DD83B99F71D3E302573ED38372EA3B /* Build configuration list for PBXNativeTarget "Floaty" */;
+			buildPhases = (
+				58D385880A221FD41E30877A347BC358 /* Sources */,
+				E91D449C74F3A7565170694D645F1052 /* Frameworks */,
+				DC4B55F79F7EDF7665C0699A20731DE3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Floaty;
+			productName = Floaty;
+			productReference = D397E54765DD1AFDF6F6A326AE575900 /* Floaty.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235787AAA4D655650FA93DB4FB2D308A /* Build configuration list for PBXNativeTarget "KYDrawerController" */;
+			buildPhases = (
+				1BA042EDEFD683F56F2F5063EC1B98EB /* Sources */,
+				9FB1EF2F8A9886B7F0713F557C0356DF /* Frameworks */,
+				8F522C0522F6102E735FC7B74623D435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDrawerController;
+			productName = KYDrawerController;
+			productReference = 67589886E74B20FCB95FE54E1B9D5B8A /* KYDrawerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DF0A7503F560850E4D123D0288A9074 /* Pods-INUBusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FC802D5B0D90994674804C873E52A5 /* Build configuration list for PBXNativeTarget "Pods-INUBusUITests" */;
+			buildPhases = (
+				A8166662E48F59DD6FA9153E8AF53152 /* Sources */,
+				6687F92611B2878959D0A11CDD1B42C3 /* Frameworks */,
+				1A4A25B402FA6A000CDA0143FC751686 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95D586C8EA750E572F5161665599CD51 /* PBXTargetDependency */,
+			);
+			name = "Pods-INUBusUITests";
+			productName = "Pods-INUBusUITests";
+			productReference = 5F9F9E4FAFC0FF5CE0CDF8BB074D00A3 /* Pods_INUBusUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7C454D3DF41782065118B4521F186B4 /* Pods-INUBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A5C3D5B1CBE36D23269C723C856E91 /* Build configuration list for PBXNativeTarget "Pods-INUBusTests" */;
+			buildPhases = (
+				A4AD16D721E6A24E2326D156A2D9F8FB /* Sources */,
+				269B4345930085411C7C9E1D5BCFF78F /* Frameworks */,
+				70697A946C8D6789AFF4B84E80B0DCF0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8B2BF92005B8AFC555792D7BB6E15A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-INUBusTests";
+			productName = "Pods-INUBusTests";
+			productReference = B18C5B8219CED25BBF4C8C6C43822259 /* Pods_INUBusTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 98B3A8E884E17BC8E63B7CC3DAC658E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F9CB62B8DA981D2A5C07A7292CC4FA /* BetterSegmentedControl */,
+				5C123A74CD9D6CDA27160800BA68B01A /* Floaty */,
+				7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */,
+				1E758BEB0A7F8A4ADE817901C6DC877D /* Pods-INUBus */,
+				F7C454D3DF41782065118B4521F186B4 /* Pods-INUBusTests */,
+				8DF0A7503F560850E4D123D0288A9074 /* Pods-INUBusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA042EDEFD683F56F2F5063EC1B98EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC40F18DBFFCACF3FA032B58571B781 /* KYDrawerController-dummy.m in Sources */,
+				74EBEC8F9277C0056FF08F806E75EB4F /* KYDrawerController.swift in Sources */,
+				FE020C0F86B9EBDE87399EC0136682FE /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				05ED5B55D8AAD30623AEB9B36430D576 /* KYEmbedMainControllerSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4628F53075CEB38B9DD8A408FFD82E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF233B7C652D1A9DD005E01A683A236 /* Pods-INUBus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D385880A221FD41E30877A347BC358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1982E7ED9231E948A558799362FEA8B3 /* Floaty-dummy.m in Sources */,
+				0A113A2FC5F91269AB55DF9FA683015F /* Floaty.swift in Sources */,
+				9054A1CA64F47D0BEE3744D146CD26A2 /* FloatyDelegate.swift in Sources */,
+				31DEB9C293D974C0014F52E7853C3E0B /* FloatyItem.swift in Sources */,
+				8E96697B51D3FD3DB5EB1BE3EF02B411 /* FloatyManager.swift in Sources */,
+				F5B4C3EE44C285ACF24E077895435175 /* FloatyViewController.swift in Sources */,
+				530356FC11C4F4A1F641A30F65C5684F /* FloatyWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E6E777F176773B53DA4FE63EF94397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E215309BC3AAFE8C2DA802B2283BFD /* BetterSegmentedControl-dummy.m in Sources */,
+				F12827DFC1447D097D45C3687AF189DC /* BetterSegmentedControl.swift in Sources */,
+				710B750541A05ADFA643EF5B105EDBB2 /* BetterSegmentedControlSegment.swift in Sources */,
+				7085F8552F1E9EF57FE10C6F7D07EB08 /* IconSegment.swift in Sources */,
+				014DC8742AAD5B70CE362B4094616382 /* LabelSegment.swift in Sources */,
+				7BECD25493D599129A49F35326DDA5B5 /* Options.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AD16D721E6A24E2326D156A2D9F8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23D99191BE18C21D705F9A90179312A /* Pods-INUBusTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8166662E48F59DD6FA9153E8AF53152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959B3E45D7994C5CED87AE561478A5F /* Pods-INUBusUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73FF93ED8F4749842EEBF5613467EDCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BetterSegmentedControl;
+			target = 04F9CB62B8DA981D2A5C07A7292CC4FA /* BetterSegmentedControl */;
+			targetProxy = 57F258BD859C5A9D6374BAD59F18DBFE /* PBXContainerItemProxy */;
+		};
+		95D586C8EA750E572F5161665599CD51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-INUBus";
+			target = 1E758BEB0A7F8A4ADE817901C6DC877D /* Pods-INUBus */;
+			targetProxy = B8B36410B8ADFC628DC399EA3BA68EEC /* PBXContainerItemProxy */;
+		};
+		D8B2BF92005B8AFC555792D7BB6E15A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-INUBus";
+			target = 1E758BEB0A7F8A4ADE817901C6DC877D /* Pods-INUBus */;
+			targetProxy = 25068E66AB4241A68EC6E7DCFD49AF3A /* PBXContainerItemProxy */;
+		};
+		EF1E20D6794A76470EC6425B5AEDFE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYDrawerController;
+			target = 7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */;
+			targetProxy = 0C706A9B5F88A283B626A2D04A645927 /* PBXContainerItemProxy */;
+		};
+		FD2DF44FA2921B114E9C60192BF55EB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Floaty;
+			target = 5C123A74CD9D6CDA27160800BA68B01A /* Floaty */;
+			targetProxy = C8BB793659C284B044E614A4E3771238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0088B178617ED41EE08FE7594DE3EE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67D9E48A50DCE45BF7615CF48B749C9 /* Pods-INUBusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-INUBusTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-INUBusTests/Pods-INUBusTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1915BE1E575F8464B2B439BF7B72D7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B012CAA6B455348E3316A709FAFB1ACA /* BetterSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetterSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = BetterSegmentedControl;
+				PRODUCT_NAME = BetterSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E065ACD3D24D845A8EDCCDD11D09367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D4D7CC0E250BBF21EB5A6DE0EF574B /* Floaty.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Floaty/Floaty-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Floaty/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Floaty/Floaty.modulemap";
+				PRODUCT_MODULE_NAME = Floaty;
+				PRODUCT_NAME = Floaty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47AB73E6EF39FCA649708A72F869C6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BA9D91E8E0755C2C35308E9962078E /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				PRODUCT_MODULE_NAME = KYDrawerController;
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		538B70B4776DD9D672F8BEEDC551BAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BA9D91E8E0755C2C35308E9962078E /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				PRODUCT_MODULE_NAME = KYDrawerController;
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6BDE350B9C0934FF875269C78EB6C162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF05E73E96DD5FE7C2A6307B011149D4 /* Pods-INUBusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-INUBusUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-INUBusUITests/Pods-INUBusUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ADBD6FEE538CF96C68667740C6968C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B012CAA6B455348E3316A709FAFB1ACA /* BetterSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetterSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = BetterSegmentedControl;
+				PRODUCT_NAME = BetterSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C4CE77823DFF847A71FA17F3F79D84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D4D7CC0E250BBF21EB5A6DE0EF574B /* Floaty.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Floaty/Floaty-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Floaty/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Floaty/Floaty.modulemap";
+				PRODUCT_MODULE_NAME = Floaty;
+				PRODUCT_NAME = Floaty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C7204C49E0D2733896209A52CCB3CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EDCDE2404CCFF657EBEAB5F270B28D /* Pods-INUBusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-INUBusTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-INUBusTests/Pods-INUBusTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F84B255CF7862E52CEA6A44A941B804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D304904C42FF773628DD5AEC6615EA7 /* Pods-INUBusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-INUBusUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-INUBusUITests/Pods-INUBusUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E175A8D893CF6CB12273DABCC0194091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FD2FCE1BFA09838DD5670B9EDB6624 /* Pods-INUBus.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-INUBus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-INUBus/Pods-INUBus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E80F65F4071E4ECC1778D4288B7754DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620BC458DB04BAF91C7E18479DB76129 /* Pods-INUBus.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-INUBus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-INUBus/Pods-INUBus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11DD83B99F71D3E302573ED38372EA3B /* Build configuration list for PBXNativeTarget "Floaty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4CE77823DFF847A71FA17F3F79D84B /* Debug */,
+				3E065ACD3D24D845A8EDCCDD11D09367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235787AAA4D655650FA93DB4FB2D308A /* Build configuration list for PBXNativeTarget "KYDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538B70B4776DD9D672F8BEEDC551BAF4 /* Debug */,
+				47AB73E6EF39FCA649708A72F869C6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8ED7DFDC42DEE101EB0521DA5E17BC /* Build configuration list for PBXNativeTarget "Pods-INUBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80F65F4071E4ECC1778D4288B7754DD /* Debug */,
+				E175A8D893CF6CB12273DABCC0194091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FC802D5B0D90994674804C873E52A5 /* Build configuration list for PBXNativeTarget "Pods-INUBusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F84B255CF7862E52CEA6A44A941B804 /* Debug */,
+				6BDE350B9C0934FF875269C78EB6C162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A5C3D5B1CBE36D23269C723C856E91 /* Build configuration list for PBXNativeTarget "Pods-INUBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0088B178617ED41EE08FE7594DE3EE20 /* Debug */,
+				9C7204C49E0D2733896209A52CCB3CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D302F4134BFB12987707E7B6C802BF /* Build configuration list for PBXNativeTarget "BetterSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1915BE1E575F8464B2B439BF7B72D7C5 /* Debug */,
+				7ADBD6FEE538CF96C68667740C6968C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

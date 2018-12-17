@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFRegular.otf">
+            <string>NanumSquareOTFR</string>
+        </array>
+        <array key="source_sans_roman_regula.ttf">
+            <string>.HelveticaNeueDeskInterface-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TimeTableViewCell" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TimeTableViewCell" customModule="INUBus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rb-nO-fhK">
+                        <rect key="frame" x="11" y="15" width="22.5" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22.5" id="flI-DP-RMV"/>
+                            <constraint firstAttribute="height" constant="22.5" id="nzJ-D9-PTf"/>
+                        </constraints>
+                        <color key="tintColor" red="0.19215686269999999" green="0.47450980390000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" image="icFavor"/>
+                        <connections>
+                            <action selector="touchUpFavoritesButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Oeh-8m-hdx"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="780" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vEn-h4-Yjs">
+                        <rect key="frame" x="45" y="7.5" width="53" height="35.5"/>
+                        <fontDescription key="fontDescription" name=".HelveticaNeueDeskInterface-Regular" family="SFNS Display" pointSize="30"/>
+                        <color key="textColor" red="0.18431372549019609" green="0.37647058823529411" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00-00분" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WW8-JV-48A">
+                        <rect key="frame" x="277.5" y="18" width="52.5" height="15.5"/>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0분 00초" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZu-pp-XTx">
+                        <rect key="frame" x="172" y="17" width="72" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="72" id="We1-YE-ol9"/>
+                            <constraint firstAttribute="height" constant="18" id="oy7-m7-OYI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WW8-JV-48A" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Drf-ex-48I"/>
+                    <constraint firstItem="WW8-JV-48A" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="1.62" id="HSZ-fr-Psw"/>
+                    <constraint firstItem="wZu-pp-XTx" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="1.11" id="KSH-Ws-w3G"/>
+                    <constraint firstItem="5rb-nO-fhK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="MWb-Rw-ZXJ"/>
+                    <constraint firstItem="vEn-h4-Yjs" firstAttribute="leading" secondItem="5rb-nO-fhK" secondAttribute="trailing" constant="11.5" id="YJZ-gL-TcJ"/>
+                    <constraint firstItem="5rb-nO-fhK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="o4g-hn-BCz"/>
+                    <constraint firstItem="vEn-h4-Yjs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="r2d-A8-xUs"/>
+                    <constraint firstItem="wZu-pp-XTx" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="vG5-x8-713"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="arrivalTime" destination="wZu-pp-XTx" id="kRQ-0R-QPv"/>
+                <outlet property="busNumber" destination="vEn-h4-Yjs" id="jaw-TO-V1b"/>
+                <outlet property="favoritesButton" destination="5rb-nO-fhK" id="qip-c9-8I4"/>
+                <outlet property="intervalTime" destination="WW8-JV-48A" id="Pj5-HC-ppx"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="85.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icFavor" width="17" height="17"/>
+    </resources>
+</document>
