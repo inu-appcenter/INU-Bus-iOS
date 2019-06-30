@@ -92,7 +92,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhd-Mj-x39">
-                                <rect key="frame" x="42" y="294.5" width="97.5" height="108.5"/>
+                                <rect key="frame" x="42" y="294.5" width="97.5" height="117"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">개발자(Android)
@@ -103,7 +103,7 @@
 
 디자이너</string>
                                         <attributes>
-                                            <font key="NSFont" size="14" name="NanumSquareOTFR"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -111,7 +111,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ny-aj-kvI">
-                                <rect key="frame" x="189" y="294.5" width="38.5" height="108.5"/>
+                                <rect key="frame" x="189" y="294.5" width="36.5" height="117"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">손민재
@@ -122,7 +122,7 @@
 
 김리현</string>
                                         <attributes>
-                                            <font key="NSFont" size="14" name="NanumSquareOTFR"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -130,7 +130,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SU2-49-Ct9">
-                                <rect key="frame" x="42" y="437" width="151" height="45"/>
+                                <rect key="frame" x="42" y="445.5" width="151" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="N7E-JP-HjN"/>
                                     <constraint firstAttribute="width" constant="151" id="P9S-c2-K0g"/>
@@ -139,7 +139,7 @@
                                     <fragment content="이 데이터는 계산한 수치값으로 정확하지 않을 수 있습니다.">
                                         <attributes>
                                             <color key="NSColor" red="0.87058823529411766" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="NanumSquareOTFR"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -147,35 +147,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtW-MW-Al5">
-                                <rect key="frame" x="47" y="612" width="190" height="40"/>
+                                <rect key="frame" x="47" y="609" width="190" height="43"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="이 앱은 ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.51372549019607838" green="0.51372549019607838" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="NanumSquareOTFR"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="공공데이터">
-                                        <attributes>
-                                            <color key="NSColor" red="0.51372549019607838" green="0.51372549019607838" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="NanumSquareOTFB"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
                                     <fragment>
-                                        <string key="content">를 이용한 앱입니다.
+                                        <string key="content">이 앱은 공공데이터를 이용한 앱입니다.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.51372549019607838" green="0.51372549019607838" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="NanumSquareOTFR"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="This application used public data.">
                                         <attributes>
                                             <color key="NSColor" red="0.51372549019607838" green="0.51372549019607838" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="NanumSquareOTFR"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -750,14 +736,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="86.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehE-JE-OcC">
-                                        <rect key="frame" x="151" y="34" width="31" height="37.5"/>
+                                        <rect key="frame" x="156" y="31" width="30" height="40.5"/>
                                         <attributedString key="attributedText">
                                             <fragment>
                                                 <string key="content">첫차
 5:00</string>
                                                 <attributes>
                                                     <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" size="14" name="NanumSquareOTFB"/>
+                                                    <font key="NSFont" metaFont="system" size="14"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -765,14 +751,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omD-jO-1Xe">
-                                        <rect key="frame" x="223" y="34" width="39.5" height="37.5"/>
+                                        <rect key="frame" x="227" y="31" width="38.5" height="40.5"/>
                                         <attributedString key="attributedText">
                                             <fragment>
                                                 <string key="content">막차
 23:00</string>
                                                 <attributes>
                                                     <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" size="14" name="NanumSquareOTFB"/>
+                                                    <font key="NSFont" metaFont="system" size="14"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -780,14 +766,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIQ-sw-vPb">
-                                        <rect key="frame" x="296.5" y="34" width="47" height="37.5"/>
+                                        <rect key="frame" x="299.5" y="31" width="44" height="40.5"/>
                                         <attributedString key="attributedText">
                                             <fragment>
                                                 <string key="content">요금
 1250원</string>
                                                 <attributes>
                                                     <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" size="14" name="NanumSquareOTFB"/>
+                                                    <font key="NSFont" metaFont="system" size="14"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -919,7 +905,7 @@
         <image name="icFeedback" width="110" height="113"/>
         <image name="icGrayInfor" width="44" height="44"/>
         <image name="icInfor" width="24" height="24"/>
-        <image name="icInquiry" width="20" height="21"/>
+        <image name="icInquiry" width="20.5" height="21"/>
         <image name="icRetry" width="49" height="49"/>
         <image name="map" width="321" height="321"/>
     </resources>
